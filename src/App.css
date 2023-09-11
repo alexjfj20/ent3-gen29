@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* --- RESET --- */
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+html {
+
+  font-family: 'Lato', sans-serif;
+
+}
+
+body {
+
+  margin: 0;
+
+}
+
+h1, h2, h3, ul, hr {
+
+  margin-top: 0;
+
+  margin-bottom: 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+  padding-left: 0;
+
+}
+
+input {
+
+  outline: none;
+
+  font-family: inherit;
+
+}
+
+button {
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+}
+
+img {
+
+  width: 40%;
+
+  display: block;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+/* Estilos del formulario de búsqueda */
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para mostrar un mensaje de error */
+h2.error-message {
+  color: red;
+}
+
+/* Estilos para la información de la ubicación */
+article {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: 60%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  margin-right: 30px;
+  list-style: none;
+  line-height: 1.5;
+  padding: 3;
+  
+}
+
+li {
+  margin: 5px 0;
+  font-size: 16px;
+  margin-right: 10px;
+  align-items: center;
+   
+}
+ 
+
+
+
+/* Estilos para las tarjetas de residentes */
+.resident {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.resident__header {
+  display: flex;
+  align-items: center;
+  
+}
+
+.resident__image {
+  max-width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.resident__status {
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.resident__status__circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green; /* Puedes cambiar el color según el estado */
+  margin-bottom: 5px;
+}
+
+.resident__status__values {
+  font-size: 14px;
+}
+
+.resident__body {
+  margin-top: 20px;
+}
+
+.resident__name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.resident__separator {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.resident__list {
+  list-style: none;
+  padding: 0;
+}
+
+.resident__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* Otros estilos según tus necesidades */
+  
+ 
